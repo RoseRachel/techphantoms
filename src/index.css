@@ -1,13 +1,241 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: column;
+  background-color: rgb(208, 208, 212);
+}
+.image-description{
+  color: black;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  
+  color: white;
+  background-color: coral;
 }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+  color: white;
+  background-color: coral;
+  margin-top: 3px;
+}
+
+.add {
+  background-image: url("https://t3.ftcdn.net/jpg/03/35/74/56/240_F_335745675_MaxYxSsadrviZdThITuHB2oCohYOiwEu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: coral;
+  padding-bottom: 380px;
+}
+.button3 {
+  border-radius: 8px;
+  margin-right: 1000px;
+}
+.add p {
+  color: coral;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.image description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.col-md-3 {
+  float: left;
+}
+
+span {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+  padding-bottom: 20px;
+  margin: 15px;
+}
+
+header {
+  background-color: coral;
+}
+
+header nav ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+header nav li {
+  list-style: none;
+  float: right;
+}
+
+header nav ul li a {
+  color: rgb(245, 233, 233);
+  padding: 20px;
+  float: left;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: white;
+}
+
+header nav ul li a:active {
+  color: yellow;
+}
+
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header ul [type=text] {
+  float: left;
+  padding: 12px;
+  margin-top: 12px;
+  margin-left: 20px;
+  border: none;
+  font-size: 17px;
+}
+
+.product {
+  background-color: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4%;
+  flex: 1 12%;
+}
+
+.image {
+  background-size: cover;
+  background-repeat: no-repeat;
+    display: flex;
+    text-align: bottom;
+    display: inline;
+    bottom: 60px;
+    margin: auto;
+}
+
+.item {
+  display: flex;
+  text-align: bottom;
+  display: inline;
+  bottom: 60px;
+  margin: auto;
+}
+
+.item p {
+  text-align: bottom;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #E9E9E9;
+  top: 60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(177, 172, 172);
+  color: black;
+}
+
+.add :hover {
+  background-color: coral;
+}
+
+.topnav a.active {
+  background-color: coral;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .topnav a,
+  .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .topnav input[type=text] {
+    border: 1px solid coral;
+  }
+}
+
+.button {
+  background-color: coral;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.button:hover {
+  background-color:whitesmoke;
+}
+
